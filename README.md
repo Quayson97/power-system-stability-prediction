@@ -3,4 +3,7 @@ This repository presents a machine learning approach to predict smart grid stabi
 
 
 ## Table of Contents
-
+## Table of Contents
+- [Project Overview](#ProjectOverview)
+- [Dataset](#stability_dataset.csv)
+- [Modules](#)
