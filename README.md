@@ -20,7 +20,7 @@ This repository presents a machine learning approach to predict smart grid stabi
 
 # Project Overview
 
-The primary objective of this project is to develop and evaluate machine learning models for predicting the stability of a smart grid system. This is aachieved by:
+The primary objective of this project is to develop and evaluate machine learning models for predicting the stability of a smart grid system. This is achieved by:
 
 - **Establishing Baselines Models**: Training and evaluating common classification algorithms such as Logistic Regression, Support Vector Machines, Random Forest, K-Nearest Neighbours and Descion Trees to set performance benchmarks.
 - **ANN as Feature Extractor**: Utilizing an Artificial Neural Network for prediction and also to learn and extract informative features from hidden layers of the ANN.
