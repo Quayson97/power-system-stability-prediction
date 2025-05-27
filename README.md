@@ -6,4 +6,7 @@ This repository presents a machine learning approach to predict smart grid stabi
 ## Table of Contents
 - [Project Overview](#ProjectOverview)
 - [Dataset](#stability_dataset.csv)
-- [Modules](#)
+- [Modules](#modules)
+  - [baseline_models.py](#baseline-modelspy)
+  - [ann_feature_extraction.py](#ann-feature-extractionpy)
+  - [ensemble_model.py](#ensemble-model.py)
