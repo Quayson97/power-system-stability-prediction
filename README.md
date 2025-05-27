@@ -30,7 +30,7 @@ The primary objective of this project is to develop and evaluate machine learnin
 
 ## Dataset
 
-The project uses the `stability_dataset.csv` file from the UCI Machine Learning Repository to predict the stability of the smart grid. The dataset includes various features like Producers/Consumers(**p1,p2,p3,p4**), Reaction times(**tau1, tau2, tau3, tau4**) and Price elasticity(**g1,g2,g3,g4**) and a **stabf** (stability flag) that indicates whether the system is **stable** or **unstable**.
+The project uses the `stability_dataset.csv` file from the UCI Machine Learning Repository to predict the stability of the smart grid. The dataset includes various features like Producers/Consumers(**p1, p2, p3, p4**), Reaction times(**tau1, tau2, tau3, tau4**) and Price elasticity(**g1, g2, g3, g4**) and a **stabf** (stability flag) that indicates whether the system is **stable** or **unstable**.
 
 ### Preprocessing Techniques Applied:
 - The categorical **stabf** column is mapped to numerical values (**0** for 'stable', **1** for 'unstable').
