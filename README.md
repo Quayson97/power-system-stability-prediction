@@ -3,19 +3,15 @@ This repository presents a machine learning approach to predict smart grid stabi
 
 
 ## Table of Contents
-- [Project Overview](#ProjectOverview)
-- [Dataset](#stability_dataset.csv)
-- [Modules](#modules)
-  - [baseline_models.py](#baseline-modelspy)
-  - [ann_feature_extraction.py](#ann-feature-extractionpy)
-  - [ensemble_model.py](#ensemble-model.py)
-- [Jupyter Notebook](#stability_pred.ipynb)
-- [Installation](#Installation)
-- [Usage](#Usage)
-- [Results and Visualizations](#ResultsandVisualizations)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+- [Project Overview](#https://github.com/Quayson97/power-system-stability-prediction/blob/main/README.md#project-overview)
+- [Dataset](#https://github.com/Quayson97/power-system-stability-prediction/blob/main/README.md#dataset)
+- [Modules](#https://github.com/Quayson97/power-system-stability-prediction/blob/main/README.md#modules)
+  - [baseline_models.py](#https://github.com/Quayson97/power-system-stability-prediction/blob/main/README.md#baseline_modelspy)
+  - [ann_feature_extraction.py](#https://github.com/Quayson97/power-system-stability-prediction/blob/main/README.md#ann_feature_extractorpy)
+  - [ensemble_model.py](#https://github.com/Quayson97/power-system-stability-prediction/blob/main/README.md#ensemble_modelpy)
+- [Jupyter Notebook](#https://github.com/Quayson97/power-system-stability-prediction/blob/main/README.md#jupyter-notebook)
+- [Results and Visualizations](#https://github.com/Quayson97/power-system-stability-prediction/blob/main/README.md#results-and-visualizations)
+- [Contact](#https://github.com/Quayson97/power-system-stability-prediction/blob/main/README.md#contact)
 
 
 # Project Overview
@@ -75,7 +71,7 @@ This module utilizes features extracted by the ANN to train other baseline class
 
 By comparing the performance of these hybrid models, this module evaluates how **ANN-based feature engineering** improves prediction accuracy.
 
-### Jupyter Notebook
+## Jupyter Notebook
 
 The `stability_pred.ipynb` notebook orchestrates the entire workflow of the project. It handles:
 
@@ -100,6 +96,6 @@ These plots provide a clear picture of how different modeling strategies perform
 ## Contact
 
 - **Name:** Ekow Quayson
-- **LinkedIn:** [Your LinkedIn Profile URL](https://www.linkedin.com/in/ekow-quayson/)
+- **LinkedIn:** [Your LinkedIn Profile URL](#https://www.linkedin.com/in/ekow-quayson/)
 - **Email (Optional):** ekowquayson5@gmail.com
 
