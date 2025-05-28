@@ -58,7 +58,7 @@ This module implements several traditional machine learning classifiers, providi
 These models are trained and evaluated on **training, validation, and test datasets** and provide insights on their predictive performance before feature extraction and ensemble modeling are applied.
 
 ### ann_feature_extractor.py
-This script trains an  Artificial Neural Network (ANN) and extracts hidden features for hybrid modeling. It includes functions to:
+This module trains an  Artificial Neural Network (ANN) and extracts hidden features for hybrid modeling. It includes functions to:
 
 - **Build a simple ANN**: A multi-layer perceptron with two hidden layers.
 - **Train the ANN**: The network is trained for classification using validation accuracy, with Early Stopping to prevent overfitting.
