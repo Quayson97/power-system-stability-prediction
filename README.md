@@ -22,7 +22,7 @@ This repository presents a machine learning approach to predict smart grid stabi
 
 The primary objective of this project is to develop and evaluate machine learning models for predicting the stability of a smart grid system. This is achieved by:
 
-- **Establishing Baseline Models**: Training and evaluating common classification algorithms such as Logistic Regression, Support Vector Machines, Random Forest, K-Nearest Neighbours, and Decision Trees to set performance benchmarks.
+- **Establishing Baseline Models**: Training and evaluating common classification algorithms such as Logistic Regression, Support Vector Machines, Random Forests, K-Nearest Neighbours, and Decision Trees to set performance benchmarks.
 - **ANN as Feature Extractor**: Utilizing an Artificial Neural Network for prediction, learning, and extracting informative features from hidden layers of the ANN.
 - **Hybrid Ensemble Modeling**: Creating models that use features extracted by the ANN to improve accuracy and make better predictions than baseline models.
 - **Modular Codebase**: Organizing the modeling pipeline into distinct, reusable Python scripts.
@@ -30,7 +30,7 @@ The primary objective of this project is to develop and evaluate machine learnin
 
 ## Dataset
 
-The project uses the `stability_dataset.csv` file from the UCI Machine Learning Repository to predict the stability of the smart grid. There are 10,000 Samples of 12 independent features. The features include Producers/Consumers(p1,p2,p3,p4), Reaction times(tau1, tau2, tau3, tau4) and Price elasticity(g1,g2,g3,g4) and a **stab** and **stabf** (stability flag) that indicates whether the system is **stable** or **unstable**.
+The project uses the `stability_dataset.csv` file from the UCI Machine Learning Repository to predict the stability of the smart grid. There are 10,000 samples of 12 independent features. The features include Producers/Consumers(**p1, p2, p3, p4**), Reaction times(**tau1, tau2, tau3, tau4**) and Price elasticity(**g1, g2, g3, g4**) and a **stab** and **stabf** (stability flag) that indicates whether the system is **stable** or **unstable**.
 
 ### Preprocessing Techniques Applied:
 - The categorical **stabf** column is mapped to numerical values (**0** for 'stable', **1** for 'unstable').
