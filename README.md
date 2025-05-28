@@ -3,15 +3,15 @@ This repository presents a machine learning approach to predict smart grid stabi
 
 
 ## Table of Contents
-- [Project Overview](#https://github.com/Quayson97/power-system-stability-prediction/blob/main/README.md#project-overview)
-- [Dataset](#https://github.com/Quayson97/power-system-stability-prediction/blob/main/README.md#dataset)
-- [Modules](#https://github.com/Quayson97/power-system-stability-prediction/blob/main/README.md#modules)
-  - [baseline_models.py](#https://github.com/Quayson97/power-system-stability-prediction/blob/main/README.md#baseline_modelspy)
-  - [ann_feature_extraction.py](#https://github.com/Quayson97/power-system-stability-prediction/blob/main/README.md#ann_feature_extractorpy)
-  - [ensemble_model.py](#https://github.com/Quayson97/power-system-stability-prediction/blob/main/README.md#ensemble_modelpy)
-- [Jupyter Notebook](#https://github.com/Quayson97/power-system-stability-prediction/blob/main/README.md#jupyter-notebook)
-- [Results and Visualizations](#https://github.com/Quayson97/power-system-stability-prediction/blob/main/README.md#results-and-visualizations)
-- [Contact](#https://github.com/Quayson97/power-system-stability-prediction/blob/main/README.md#contact)
+- [Project Overview](#ProjectOverview)
+- [Dataset](#stability_dataset.csv)
+- [Modules](#modules)
+  - [baseline_models.py](#baseline-modelspy)
+  - [ann_feature_extraction.py](#ann-feature-extractionpy)
+  - [ensemble_model.py](#ensemble-model.py)
+- [Jupyter Notebook](#stability_pred.ipynb)
+- [Results and Visualizations](#ResultsandVisualizations)
+- [Contact](#contact)
 
 
 # Project Overview
@@ -96,6 +96,6 @@ These plots provide a clear picture of how different modeling strategies perform
 ## Contact
 
 - **Name:** Ekow Quayson
-- **LinkedIn:** [Your LinkedIn Profile URL](#https://www.linkedin.com/in/ekow-quayson/)
+- **LinkedIn:** [LinkedIn Profile ](https://www.linkedin.com/in/ekow-quayson/)
 - **Email (Optional):** ekowquayson5@gmail.com
 
