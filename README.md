@@ -83,6 +83,10 @@ The `stability_pred.ipynb` notebook orchestrates the entire workflow of the proj
 
 The Jupyter Notebook generates several insightful visualizations to evaluate model performance:
 
+### Baseline Model Performance
+The table below summarizes their performance across training, validation, and test sets.
+![Base Model Results Table](assets/Base_Model_Results.PNG)
+
 - **Base Model Validation Accuracy Comparison**: Bar plot comparing the validation accuracy of initial baseline models.
 - **Base Model Test Accuracy Comparison**: Bar plot showing the test accuracy of baseline models.
 - **Base Models: Train vs. Validation Accuracy**: Comparison plot to detect potential overfitting in baseline models.
