@@ -61,7 +61,7 @@ These models are trained and evaluated on **training, validation, and test datas
 This module trains an  Artificial Neural Network (ANN) and extracts hidden features for hybrid modeling. It includes functions to:
 
 - **Build a simple ANN**: A multi-layer perceptron with two hidden layers.
-- **Train the ANN**: The network is trained for classification using validation accuracy, with Early Stopping to prevent overfitting.
+- **Train the ANN**: The network is trained for classification using accuracy as the metric, with Early Stopping to prevent overfitting.
 - **Extract Features**: Once trained, the second hidden layer outputs are used as extracted features. These features capture complex, non-linear patterns in the data.
 
 ### ensemble_model.py
