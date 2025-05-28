@@ -30,12 +30,7 @@ The primary objective of this project is to develop and evaluate machine learnin
 
 ## Dataset
 
-<<<<<<< HEAD
-The project uses the `stability_dataset.csv` file from the UCI Machine Learning Repository to predict the stability of the smart grid. The dataset includes various features like Producers/Consumers(**p1, p2, p3, p4**), Reaction times(**tau1, tau2, tau3, tau4**) and Price elasticity(**g1, g2, g3, g4**) and a **stabf** (stability flag) that indicates whether the system is **stable** or **unstable**.
-=======
-The project uses the `stability_dataset.csv` file from the UCI Machine Learning Repository to predict the stability of smart grid. There are 10,000 
-samples of 12 independent features. The features include Producers/Consumers(p1,p2,p3,p4), Reaction times(tau1, tau2, tau3, tau4) and Price elasticity(g1,g2,g3,g4) and a **stab** and **stabf** (stability flag) that indicates whether the system is **stable** or **unstable**.
->>>>>>> efaf4b5 (Explained Modules in README)
+The project uses the `stability_dataset.csv` file from the UCI Machine Learning Repository to predict the stability of the smart grid. There are 10,000 Samples of 12 independent features. The features include Producers/Consumers(p1,p2,p3,p4), Reaction times(tau1, tau2, tau3, tau4) and Price elasticity(g1,g2,g3,g4) and a **stab** and **stabf** (stability flag) that indicates whether the system is **stable** or **unstable**.
 
 ### Preprocessing Techniques Applied:
 - The categorical **stabf** column is mapped to numerical values (**0** for 'stable', **1** for 'unstable').
@@ -49,7 +44,7 @@ samples of 12 independent features. The features include Producers/Consumers(p1,
 
 ## Modules
 
-The project's functionality is built using three distinct Python modules, ensuring a well-organized and reusable codebase.
+The project's functionality is built using three Python modules, ensuring a well-organized and reusable codebase.
 
 ### baseline_models.py
 This module implements several traditional machine learning classifiers, providing a baseline for comparison against more advanced models. The models include:
@@ -63,14 +58,14 @@ This module implements several traditional machine learning classifiers, providi
 These models are trained and evaluated on **training, validation, and test datasets** and provide insights on their predictive performance before feature extraction and ensemble modeling are applied.
 
 ### ann_feature_extractor.py
-This script trains an  Artificial Neural Network (ANN) and extract hidden features for hybrid mondelling. It includes functions to:
+This script trains an  Artificial Neural Network (ANN) and extracts hidden features for hybrid modeling. It includes functions to:
 
 - **Build a simple ANN**: A multi-layer perceptron with two hidden layers.
 - **Train the ANN**: The network is trained for classification using validation accuracy, with Early Stopping to prevent overfitting.
-- **Extract Features**: Once trained, outputs from the second hidden layer are used as extracted features. These features capture complex, non-linear patterns in the data.
+- **Extract Features**: Once trained, the second hidden layer outputs are used as extracted features. These features capture complex, non-linear patterns in the data.
 
 ### ensemble_model.py
-This module utilizes features extracted by the ANN to train other baseline classifiers. It creates **hybrid models**, combining the ANN's feature learning strengths with the the baseline classifiers in **base_models.py**. The trained models include:
+This module utilizes features extracted by the ANN to train other baseline classifiers. It creates **hybrid models**, combining the ANN's feature learning strengths with the baseline classifiers in **base_models.py**. The trained models include:
 
 - **Logistic Regression (on ANN features)**
 - **Random Forest (on ANN features)**
