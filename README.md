@@ -96,5 +96,5 @@ These plots provide a clear picture of how different modeling strategies perform
 
 - **Name:** Ekow Quayson
 - **LinkedIn:** [LinkedIn Profile ](https://www.linkedin.com/in/ekow-quayson/)
-- **Email (Optional):** ekowquayson5@gmail.com
+- **Email:** ekowquayson5@gmail.com
 
