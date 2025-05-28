@@ -75,4 +75,31 @@ This module utilizes features extracted by the ANN to train other baseline class
 
 By comparing the performance of these hybrid models, this module evaluates how **ANN-based feature engineering** improves prediction accuracy.
 
+### Jupyter Notebook
+
+The `stability_pred.ipynb` notebook orchestrates the entire workflow of the project. It handles:
+
+- **Data Loading and Preprocessing**: Reads the dataset, processes categorical variables, and splits data into training, validation, and test sets.
+- **Model Training and Evaluation**: imports and use functions `baseline_models.py`, `ann_feature_extractor.py`, and `ensemble_model.py` to train and evaluate all models.
+- **Performance Metrics**: Computes accuracy scores across training, validation, and test sets to assess model performance.
+- **Visualizations**: Generates comparative bar plots for model accuracies (validation and test) and learning curves for the ANN model for easy interpretation of results and identification of overfitting.
+
+## Results and Visualizations
+
+The Jupyter Notebook generates several insightful visualizations to evaluate model performance:
+
+- **Base Model Validation Accuracy Comparison**: Bar plot comparing the validation accuracy of initial baseline models.
+- **Base Model Test Accuracy Comparison**: Bar plot showing the test accuracy of baseline models.
+- **Base Models: Train vs. Validation Accuracy**: Comparison plot to detect potential overfitting in baseline models.
+- **ANN Model Learning Curves**: Graphs displaying training and validation accuracy and loss over epochs for the ANN feature extractor, for assessing its learning process and convergence.
+- **Hybrid Models: Train vs. Validation Accuracy**: Comparison plot for the models trained on ANN-extracted features to for overfitting.
+- **Hybrid Model Final Test Accuracy**: Bar plot highlighting the test performance of models utilizing ANN-derived features.
+
+These plots provide a clear picture of how different modeling strategies perform in predicting power system stability.
+
+## Contact
+
+- **Name:** Ekow Quayson
+- **LinkedIn:** [Your LinkedIn Profile URL](https://www.linkedin.com/in/ekow-quayson/)
+- **Email (Optional):** ekowquayson5@gmail.com
 
